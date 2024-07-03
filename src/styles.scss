@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  mat-toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+  
+  .router-outlet + * {
+    padding-top: 64px;
+  }
+  
+  .home-content, .about-content, .contact-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
